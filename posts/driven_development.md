@@ -10,11 +10,17 @@ Here is a a brief summary of each as well as some scenarios when is best to use 
 
 ### Testing Driven Development
     Summary
+
     Creating the tests for the code before writing the code.
-    After creating the tests, write the code and as tests start passing, keep expanding the test coverage. This approach leads to more thorough testing as well as more modular testable code.
+
+    After creating the tests, write the code and as tests start passing, keep expanding the test coverage.
+    
+    This approach leads to more thorough testing as well as more modular testable code.
 
     Scenario
-    Thoroughly documented design which requires implementing or when the design does not have a high degree of unknown complexities.
+
+    Thoroughly documented design which requires implementing.
+    Alternatively when the design does not have a high degree of unknown complexities.
 
 ### Behaviour Driven Development
     
