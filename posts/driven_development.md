@@ -1,6 +1,6 @@
 # Why are there so many of these techniques cropping up?
 
-Testing Driven Development, Behaviour driven development, Feature driven development, Design driven development ...
+Testing Driven Development, Behaviour driven development, Feature driven development, Domain driven development ...
 
 The list goes on and on with all the development methodologies coming out the woodwork and growing in popularity.
 
@@ -47,6 +47,17 @@ Here is a a brief summary of each as well as some scenarios when is best to use 
     Scenario:
     This is forcing a modular software design with clear business logic to stakeholders.
 
+### Domain Driven Development
+
+    Summary:
+    Focuses of specifying specific "Domains" which can be associated with specific business logic. These domains are often controlled by domain "experts" these are not programming experts but business experts whom understand that task/proceedure the program is attempting to automate or perform.
+
+    Similar to BDD in terms of the aims, but with a larger extreme where groups of features are referred to as "domains" and require to be achieved, in practise this is achieved similarly to BDD with "Models" being used to create an abstraction layer between "domains" and the underlaying programming functions.
+
+    Scenario:
+    Very Business centric logic, where having non-programmer experts is key, yet without having to utilise Gherkin or similar syntax.
+    I imagine this be well utilised in a software contracting design company.
+
 ### Feature Driven Development
     Scenario: 
     A large project with a large variety of different complex features
@@ -57,4 +68,11 @@ Here is a a brief summary of each as well as some scenarios when is best to use 
 
     In my experience this is often not very suitable when doing agile, as it requires alot of the features to only be loosely connected or with a large amount of additional planning. Otherwise it makes more sense to plan the entire project in one go and achieve implementation in the same steps as best fits whichever software methodology the team prefers.
     TDD and BDD can both be fitted and implemented into a single "ticket" or unit of work, whereas FDD is more for larger chunks of work.
+
+### Personal preference
+
+Each tool has its best environment. 
+My preference is primarily to use Test driven development whenever i have the chance.
+I will often write different types of tests, which are out of the scope of this document.
+But generally i will choose to start my TDD with unit tests.
 
