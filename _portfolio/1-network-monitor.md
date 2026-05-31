@@ -1,6 +1,7 @@
 ---
 title: "Mobile Network Latency Monitor"
 subtitle: "Scalable multi-MNO latency tracking platform"
+permalink: /portfolio/network-monitor/
 tech: ["Rust", "Kubernetes", "Android", "Python", "Docker", "5G", "eSIM", "SGP.22", "Containers"]
 sort_date: 2025-03
 order: 1

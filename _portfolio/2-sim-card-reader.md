@@ -1,6 +1,7 @@
 ---
 title: "ISO 7816 SIM Card Reader"
 subtitle: "Hardware-in-the-loop SIM card analysis and sniffing"
+permalink: /portfolio/sim-card-reader/
 tech: ["C", "RP2350", "ISO 7816", "Pico SDK", "Logic Analyzer"]
 sort_date: 2025
 order: 2

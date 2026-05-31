@@ -1,6 +1,7 @@
 ---
 title: "Car Parking Sensor HUD"
 subtitle: "Custom parking sensor and heads-up display for older vehicles"
+permalink: /portfolio/car-parking-sensor/
 tech: ["C", "C++", "ESP32", "Serial", "PCB Design"]
 sort_date: 2023
 order: 3
