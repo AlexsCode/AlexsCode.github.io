@@ -2,7 +2,7 @@
 
 - company: "CSL-Group Ltd."
   role: "Solution Architect – IoT Engineering Solutions"
-  period: "2021 – Present"
+  period: "2025 – Present"
   location: ""
   highlights:
     - "Architect, design, and develop CSL's eSIM orchestration systems, including the flagship eUICC product rSIM"
@@ -10,12 +10,21 @@
     - "RSIM modem expert: direct customer support, cellular technology testing, chipset-level optimization of resilient SIM design"
     - "Designed complex multi-slot secure-boot solutions reducing BOM cost while maintaining high security and reliability"
     - "Designing a world-class cellular testing platform with a custom-built mobile network"
+  tech: ["eSIM", "SGP.32", "eUICC", "rSIM", "IoT", "Cellular", "GSMA", "Python", "Docker"]
+
+- company: "CSL-Group Ltd."
+  role: "Software Developer – Devices & Firmware"
+  period: "2021 – 2025"
+  location: ""
+  highlights:
     - "Developed multiple alarm communicators in embedded C with GSM modules, SLICs, Ethernet PHY — full RTOS-based firmware on MPUs and MCUs"
     - "Scrum Master for multidisciplinary team: ran ceremonies, retrospectives, drove agile process improvements (2 years)"
     - "Designed and built fully autonomous hardware-in-the-loop test harness using Python, pytest, Jenkins, and custom hardware"
+    - "Developed Automated Test Equipment (ATE) firmware in embedded C with JLink utilities"
     - "Built CI/CD pipelines with unit/integration tests, static analysis, Valgrind, enforcing Barr Embedded C standard"
+    - "Security analysis and hardening of existing products — patching vulnerabilities and implementing new security standards"
     - "Led BOM reduction and component obsolescence mitigation, delivering significant cost savings"
-  tech: ["eSIM", "SGP.32", "eUICC", "rSIM", "IoT", "Embedded C", "Python", "FreeRTOS", "Docker", "Jenkins", "Cellular", "GSMA"]
+  tech: ["Embedded C", "FreeRTOS", "Azure RTOS", "Python", "pytest", "Jenkins", "CMake", "STM32", "ESP-IDF", "Valgrind", "JLink", "Docker"]
 
 - company: "Personal Project"
   role: "Mobile Network Latency Monitor"
