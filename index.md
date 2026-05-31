@@ -20,7 +20,7 @@ title: Home
 
 <div class="highlights-grid">
 
-{% assign sorted = site.portfolio | sort: "sort_date" | reverse %}
+{% assign sorted = site.portfolio | sort: "order" %}
 {% for project in sorted limit:3 %}
   <div class="highlight-card">
     <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>

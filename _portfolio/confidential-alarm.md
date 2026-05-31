@@ -3,6 +3,7 @@ title: "Confidential Alarm System"
 subtitle: "IoT alert system for sensitive screen content protection"
 tech: ["C++", "ESP32", "MQTT", "IoT", "CMake"]
 sort_date: 2022
+order: 4
 period: "2022"
 ---
 
