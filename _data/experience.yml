@@ -1,0 +1,22 @@
+# Work experience — add your roles below
+# Delete or comment out entries you don't need
+
+- company: ""
+  role: ""
+  period: ""
+  location: ""
+  highlights:
+    - ""
+    - ""
+  tech: []
+
+# Example (uncomment and fill):
+# - company: "IoTaaP"
+#   role: "Embedded Systems Engineer"
+#   period: "2020 – Present"
+#   location: "London, UK"
+#   highlights:
+#     - "Developed ESP32-based IoT sensor platform deployed across 50+ sites"
+#     - "Designed custom PCB layouts and firmware for low-power BLE devices"
+#     - "Led migration from Arduino framework to ESP-IDF for production firmware"
+#   tech: ["C", "C++", "ESP-IDF", "FreeRTOS", "PCB Design"]

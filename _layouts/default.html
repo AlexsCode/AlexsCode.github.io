@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  {% feed_meta %}
+  {% seo %}
+</head>
+<body>
+  <div class="wrapper">
+    <header class="sidebar">
+      <div class="profile">
+        {% if site.logo %}
+          <img src="{{ site.logo | relative_url }}" alt="Alex Tuddenham" class="profile-photo">
+        {% endif %}
+        <h1 class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+        <p class="tagline">{{ site.description }}</p>
+      </div>
+
+      <nav class="site-nav">
+        {% for link in site.nav %}
+          <a href="{{ link.url | relative_url }}" {% if page.url == link.url %}class="active"{% endif %}>{{ link.title }}</a>
+        {% endfor %}
+      </nav>
+
+      <div class="sidebar-footer">
+        {% if site.data.social.github %}
+          <a href="{{ site.data.social.github }}" class="social-link" target="_blank">GitHub</a>
+        {% endif %}
+        {% if site.data.social.linkedin %}
+          <a href="{{ site.data.social.linkedin }}" class="social-link" target="_blank">LinkedIn</a>
+        {% endif %}
+        {% if site.data.social.email %}
+          <a href="mailto:{{ site.data.social.email }}" class="social-link">{{ site.data.social.email }}</a>
+        {% endif %}
+      </div>
+    </header>
+
+    <main class="content">
+      {{ content }}
+    </main>
+  </div>
+</body>
+</html>

@@ -1,0 +1,66 @@
+# ============================================================
+# Alex Tuddenham — CV & Portfolio Site
+# ============================================================
+title: Alex Tuddenham
+email: alex@tuddenham.info
+description: >-
+  Embedded systems engineer & IoT specialist. 
+  CV, portfolio, and technical blog.
+baseurl: ""
+url: "https://alexscode.github.io"
+github_username: AlexsCode
+
+# Theme (GitHub Pages supported)
+theme: jekyll-theme-minimal
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Plugins (GitHub Pages supported)
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+
+# Exclude from build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+
+# Collections
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "portfolio"
+    values:
+      layout: "project"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Navigation
+nav:
+  - title: Home
+    url: /
+  - title: CV
+    url: /cv/
+  - title: Portfolio
+    url: /portfolio/
+  - title: About
+    url: /about/
+  - title: Blog
+    url: /posts/

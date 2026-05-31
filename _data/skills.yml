@@ -1,0 +1,38 @@
+# Skills — grouped by category
+# Delete categories or skills you don't need
+
+embedded:
+  - C / C++
+  - Embedded C
+  - FreeRTOS
+  - ESP-IDF
+  - Arduino
+  - ARM Cortex-M
+  - PCB Design
+
+iot:
+  - ESP32 / ESP8266
+  - BLE / Bluetooth
+  - MQTT
+  - LoRaWAN
+  - Sensor Integration
+
+tools:
+  - Git
+  - CMake
+  - PlatformIO
+  - Oscilloscope & Logic Analyzer
+  - JTAG / SWD Debugging
+
+languages:
+  - C
+  - C++
+  - Python
+  - Shell scripting
+
+concepts:
+  - Test-Driven Development
+  - RTOS Design
+  - Low-Power Design
+  - Hardware-in-the-Loop Testing
+  - Agile / Scrum
