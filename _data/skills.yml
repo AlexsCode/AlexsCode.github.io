@@ -1,38 +1,61 @@
 # Skills — grouped by category
-# Delete categories or skills you don't need
 
-embedded:
-  - C / C++
+languages_proficient:
   - Embedded C
-  - FreeRTOS
-  - ESP-IDF
-  - Arduino
-  - ARM Cortex-M
-  - PCB Design
-
-iot:
-  - ESP32 / ESP8266
-  - BLE / Bluetooth
-  - MQTT
-  - LoRaWAN
-  - Sensor Integration
-
-tools:
-  - Git
-  - CMake
-  - PlatformIO
-  - Oscilloscope & Logic Analyzer
-  - JTAG / SWD Debugging
-
-languages:
-  - C
-  - C++
+  - ANSI C
   - Python
-  - Shell scripting
 
-concepts:
-  - Test-Driven Development
-  - RTOS Design
-  - Low-Power Design
-  - Hardware-in-the-Loop Testing
-  - Agile / Scrum
+languages_familiar:
+  - C++
+  - Rust
+  - Make
+  - Bash
+  - C#
+  - Java
+  - 68K Assembly
+  - VHDL
+  - Ansible
+
+rtos_and_frameworks:
+  - FreeRTOS
+  - Azure RTOS (ThreadX)
+  - ESP-IDF
+  - STM32 HAL
+  - MBed OS
+  - QT
+
+hardware:
+  - ARM Cortex-M (STM32F0, STM32H7)
+  - Tensilica Xtensa LX6 (ESP32, ESP8266)
+  - ARM9 (Atmel SAM9)
+  - GSM / Cellular Modules
+  - SLIC, Ethernet PHY
+
+testing_and_ci:
+  - C Unity
+  - pytest
+  - pytest-bdd
+  - Jenkins
+  - Docker
+  - Valgrind
+  - Static Analysis
+
+protocols:
+  - SPI
+  - I2C
+  - Serial / UART
+  - MQTT
+
+platforms:
+  - Linux
+  - Bare Metal
+  - Containers
+  - Windows
+
+soft_skills:
+  - Scrum & Agile (2yr Scrum Master)
+  - Public Speaking
+  - Technical Documentation
+  - Design Flows & UML
+  - Problem Solving
+  - Team Collaboration

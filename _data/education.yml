@@ -1,12 +1,11 @@
-# Education & certifications
+# Education & qualifications
 
-- institution: ""
-  qualification: ""
-  period: ""
-  details: ""
+- institution: "Newcastle University"
+  qualification: "BEng Electrical and Electronic Engineering"
+  period: "2014 – 2019"
+  details: "Key modules: C Programming (80%), Telecommunications Networks, Real Time & Embedded Systems, Design & Test of Digital Systems, Computer Systems & Microprocessors"
 
-# Example:
-# - institution: "University of..."
-#   qualification: "BSc Computer Science"
-#   period: "2015 – 2019"
-#   details: "First Class Honours. Dissertation on real-time embedded systems."
+- institution: "St Aidan's High School, Harrogate"
+  qualification: "A Levels: Maths (B), Physics (B), Engineering (B)"
+  period: "2007 – 2014"
+  details: "AS Level: Economics (B). GCSE: 11 High Passes including ICT and Engineering."

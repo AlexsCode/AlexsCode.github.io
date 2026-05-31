@@ -43,7 +43,7 @@ layout: default
     <h2>Skills</h2>
     {% for category in site.data.skills %}
     <div class="skill-category">
-      <h3>{{ category[0] | capitalize }}</h3>
+      <h3>{{ category[0] | replace: '_', ' ' | capitalize }}</h3>
       <div class="skill-tags">
         {% for skill in category[1] %}
           <span class="tech-tag">{{ skill }}</span>
