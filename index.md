@@ -5,22 +5,16 @@ title: Home
 
 # Hi, I'm Alex Tuddenham
 
-**Embedded Systems Engineer** — I build firmware for microcontrollers, design IoT hardware, and write the low-level code that makes devices tick.
-
-{% comment %}
-  Uncomment and add a photo:
-  Add your photo as assets/images/profile.jpg
-  Then set logo: /assets/images/profile.jpg in _config.yml
-{% endcomment %}
+**Solution Architect – IoT Engineering Solutions** at CSL-Group. I architect and build eSIM orchestration systems, specialise in SGP.32, and help shape GSMA standards as a member of the eSIM work group.
 
 ---
 
 ## What I Do
 
-- **Embedded C/C++** — ESP32, ARM Cortex-M, bare-metal and RTOS
-- **IoT Systems** — sensor networks, BLE, MQTT, LoRaWAN, edge computing
-- **PCB & Hardware Design** — schematic capture, layout, prototyping
-- **Test-Driven Development** for embedded — because bugs in firmware hurt more
+- **eSIM & eUICC** — SGP.32 architecture, rSIM orchestration, GSMA standards
+- **Cellular & Modem** — 2G through 5G, chipset-level integration, resilient SIM design
+- **Embedded Systems** — RTOS firmware, secure boot, hardware-in-the-loop testing
+- **Architecture** — system design, CI/CD pipelines, test automation platforms
 
 ## Highlights
 

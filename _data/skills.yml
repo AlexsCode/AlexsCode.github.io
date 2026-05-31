@@ -16,13 +16,13 @@ languages_familiar:
   - VHDL
   - Ansible
 
-rtos_and_frameworks:
-  - FreeRTOS
-  - Azure RTOS (ThreadX)
-  - ESP-IDF
-  - STM32 HAL
-  - MBed OS
-  - QT
+esim_and_cellular:
+  - SGP.32 eSIM
+  - eUICC (rSIM)
+  - GSMA Standards
+  - eSIM Orchestration
+  - Cellular (2G/3G/4G/5G)
+  - Modem Integration
 
 hardware:
   - ARM Cortex-M (STM32F0, STM32H7)
