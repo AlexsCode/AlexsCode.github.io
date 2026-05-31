@@ -6,8 +6,7 @@ permalink: /portfolio/
 
 # Portfolio
 
-{% assign sorted = site.portfolio | sort: "order" %}
-{% for project in sorted %}
+{% for project in site.portfolio %}
 <div class="portfolio-entry">
   <h2><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h2>
   {% if project.period %}
