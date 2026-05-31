@@ -15,6 +15,9 @@ layout: default
   {% endif %}
 
   <div class="project-meta">
+    {% if page.period %}
+    <span class="cv-period">{{ page.period }}</span>
+    {% endif %}
     {% if page.tech %}
     <div class="project-tech">
       <strong>Tech:</strong>

@@ -9,6 +9,9 @@ permalink: /portfolio/
 {% for project in site.portfolio %}
 <div class="portfolio-entry">
   <h2><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h2>
+  {% if project.period %}
+    <span class="cv-period">{{ project.period }}</span>
+  {% endif %}
   {% if project.subtitle %}
     <p class="subtitle">{{ project.subtitle }}</p>
   {% endif %}
