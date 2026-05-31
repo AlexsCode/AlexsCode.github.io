@@ -2,6 +2,7 @@
 title: "Mobile Network Latency Monitor"
 subtitle: "Scalable multi-MNO latency tracking platform"
 tech: ["Python", "Docker", "5G", "eSIM", "SGP.22", "Containers"]
+sort_date: 2025-03
 period: "March 2025 – Present"
 ---
 
