@@ -8,8 +8,6 @@
     - "Architect, design, and develop CSL's eSIM orchestration systems, including the flagship eUICC product rSIM"
     - "Specialist in SGP.32 eSIM — member of the eSIM work group, collaborating with industry experts to advance the standards"
     - "RSIM modem expert: direct customer support, cellular technology testing, chipset-level optimization of resilient SIM design"
-    - "Designed complex multi-slot secure-boot solutions reducing BOM cost while maintaining high security and reliability"
-    - "Designing a world-class cellular testing platform with a custom-built mobile network"
   tech: ["eSIM", "SGP.32", "eUICC", "rSIM", "IoT", "Cellular", "GSMA", "Python", "Docker"]
 
 - company: "CSL-Group Ltd."
