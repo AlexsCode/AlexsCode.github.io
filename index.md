@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+description: "Alex Tuddenham — Solution Architect & IoT Engineering Specialist. eSIM SGP.32 architecture, cellular IoT, embedded systems. GSMA eSIM work group member."
 ---
 
 # Hi, I'm Alex Tuddenham
@@ -11,7 +12,7 @@ title: Home
 
 ## What I Do
 
-- **eSIM & eUICC** — SGP.32 architecture, rSIM orchestration, GSMA standards
+- **eSIM & eUICC** — SGP.32 architecture, rSIM orchestration, GSMA standards. I also maintain [eUICC.tech](https://euicc.tech), a technical reference covering 12 GSMA eSIM specs.
 - **Cellular & Modem** — 2G through 5G, chipset-level integration, resilient SIM design
 - **Embedded Systems** — RTOS firmware, secure boot, hardware-in-the-loop testing
 - **Architecture** — system design, CI/CD pipelines, test automation platforms

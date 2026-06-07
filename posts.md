@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Blog
+description: "Technical blog by Alex Tuddenham — embedded systems, eSIM, cellular IoT, firmware engineering, and software architecture."
 permalink: /posts/
 ---
 

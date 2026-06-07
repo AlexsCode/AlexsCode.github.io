@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Portfolio
+description: "Projects by Alex Tuddenham — mobile network latency monitor, ISO 7816 SIM card reader, car parking sensor HUD, and confidential alarm communicator."
 permalink: /portfolio/
 ---
 

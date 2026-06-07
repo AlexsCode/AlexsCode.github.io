@@ -1,6 +1,7 @@
 ---
 layout: default
 title: About
+description: "Solution Architect at CSL-Group. eSIM orchestration, SGP.32 specialist, GSMA eSIM work group member. Full-stack from modem firmware to orchestration platforms."
 permalink: /about/
 ---
 

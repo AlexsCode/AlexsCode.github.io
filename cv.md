@@ -1,6 +1,7 @@
 ---
 layout: cv
 title: CV
+description: "Alex Tuddenham — Solution Architect & IoT Engineering Specialist. eSIM (SGP.32), cellular IoT, embedded systems, GSMA standards. Full work history and skills."
 permalink: /cv/
 ---
 

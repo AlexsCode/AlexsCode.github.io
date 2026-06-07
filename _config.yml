@@ -4,11 +4,15 @@
 title: Alex Tuddenham
 email: alex@tuddenham.info
 description: >-
-  Embedded systems engineer & IoT specialist. 
-  CV, portfolio, and technical blog.
+  Alex Tuddenham — Solution Architect & IoT Engineering Specialist. 
+  eSIM (SGP.32), cellular IoT, embedded systems, and GSMA standards. CV, portfolio, and technical blog.
 baseurl: ""
-url: "https://alexscode.github.io"
+url: "https://tuddenham.info"
 github_username: AlexsCode
+
+# Social / SEO
+twitter:
+  card: summary_large_image
 
 # Theme (GitHub Pages supported)
 theme: jekyll-theme-minimal
@@ -21,6 +25,7 @@ highlighter: rouge
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
+  - jekyll-sitemap
 
 # Exclude from build
 exclude:
@@ -37,6 +42,10 @@ collections:
 
 # Defaults
 defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/og-image.png
   - scope:
       path: ""
       type: "portfolio"
