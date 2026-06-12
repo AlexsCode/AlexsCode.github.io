@@ -16,6 +16,7 @@ twitter:
 
 # Theme (GitHub Pages supported)
 theme: jekyll-theme-minimal
+logo: /assets/images/logo.svg
 
 # Build settings
 markdown: kramdown
