@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="100" cy="100" r="95" fill="url(#glow)"/>
+  <!-- Rocket body -->
+  <g transform="translate(40, 25) rotate(45, 60, 75)">
+    <!-- Main body -->
+    <path d="M60,110 L60,40 Q60,25 75,20 L85,20 L85,130 L75,130 Q60,125 60,110 Z" fill="#161b22" stroke="#58a6ff" stroke-width="2.5"/>
+    <!-- Nose cone -->
+    <path d="M60,40 L45,15 L60,30" fill="#58a6ff" stroke="#58a6ff" stroke-width="2"/>
+    <!-- Window -->
+    <circle cx="72" cy="55" r="7" fill="#0d1117" stroke="#79c0ff" stroke-width="2"/>
+    <circle cx="72" cy="55" r="3" fill="#79c0ff"/>
+    <!-- Left fin -->
+    <path d="M60,100 L38,122 L38,112 L60,90" fill="#161b22" stroke="#58a6ff" stroke-width="2"/>
+    <!-- Right fin -->
+    <path d="M85,95 L100,118 L100,108 L85,85" fill="#161b22" stroke="#58a6ff" stroke-width="2"/>
+    <!-- Flame -->
+    <path d="M62,125 Q60,140 65,155 Q72,170 75,165 Q78,155 80,140 Q85,130 83,125" fill="#3fb950" opacity="0.8"/>
+    <path d="M65,125 Q64,138 68,148 Q72,158 75,153 Q77,145 78,138 Q80,130 80,125" fill="#79c0ff" opacity="0.6"/>
+  </g>
+</svg>
